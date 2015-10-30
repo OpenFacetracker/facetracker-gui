@@ -1,3 +1,4 @@
+[![GitHub version](https://badge.fury.io/gh/invicnaper%2FMWF.svg)](http://badge.fury.io/gh/invicnaper%2FMWF) [![Code Climate](https://codeclimate.com/github/invicnaper/MWF/badges/gpa.svg)](https://codeclimate.com/github/invicnaper/MWF)
 # facetracker-gui
 facetracker-gui contient facetracker-core écrit en C++ ainsi que l'interface graphique écrite en C++ et en QT
 
