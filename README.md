@@ -1,60 +1,33 @@
-[![GitHub version](https://badge.fury.io/gh/invicnaper%2FMWF.svg)](http://badge.fury.io/gh/invicnaper%2FMWF) [![Code Climate](https://codeclimate.com/github/invicnaper/MWF/badges/gpa.svg)](https://codeclimate.com/github/invicnaper/MWF)
-# facetracker-gui
-facetracker-gui contient facetracker-core écrit en C++ ainsi que l'interface graphique écrite en C++ et en QT
+[![GitHub version](https://badge.fury.io/gh/invicnaper%2FMWF.svg)](http://badge.fury.io/gh/invicnaper%2FMWF)[ ![Codeship Status for naperinvic/Facetracker](https://codeship.com/projects/f71de5f0-6053-0132-5208-2696ea524dd6/status?branch=master)](https://codeship.com/projects/51618)
+# README #
 
-#Screenshots
+This README would normally document whatever steps are necessary to get your application up and running.
 
-![alt text](http://naper.eu/me/images/facetracker.jpg "Facetracker Core")
+![alt text](https://cdn1.iconfinder.com/data/icons/skype-icons/128/skype_camera.png "FT logo")
 
-#Utilisation 
-Facetracker est multi-plateforme disponible pour Linux et Windows .
+### What is this repository for? ###
 
-#Installation Linux (Facetracker-core)
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-    $ git clone https://github.com/Facetracker-project/facetracker-gui.git
-    $ cd facetracker/
-    
-installation des dépendences : 
+### Screen ###
 
-    $ sudo apt-get install libopencv-dev
-    
-utilisation du fichier makefile : 
+![alt text](https://bytebucket.org/naperinvic/facetracker/raw/9869e64937525274abb9d0221be0a479bd760b9a/screen/facetracker.png?token=ddc9015a8a487bdfa8a816affa56638df983fa74 "FT screen")
 
-    $ make 
-    make ftall		  : Build facetracker
-    make memleaks		: Check memory leaks
-    
-pour compiler tout les modules du projet : 
+### How do I get set up? ###
 
-    $ make ftall
-    
-puis lancer : 
+build facetracker using the makefile 
 
-    $ ./facetracker -o
-    
-#Installation Linux(Facetracker-gui Interface graphique)
+	$ make compil
+	
+then execute it using
 
-Ouvrez le fichier <b>facetracker_gui.pro</b> avec Qt creator .
+	$ ./facetracker
 
-#Installation Windows(Facetracker core)
+### Contributors ###
 
-Ouvrez le fichier <b>Facetracker.sln</b>
+* Hamza Bourrahim
+* Godeleine Champenois
+* Quentin Jeannaud
 
-#Installation Windows(Facetracker -gui Interface graphique)
-
-Ouvrez le fichier <b>facetracker_gui.pro</b> avec Qt creator .
-
-
-#Commandes Disponibles
-
--o : Permet d'ouvrir une source multimedia (Camera , Image , vidéo , lien rtsp ..)
-
-    $ ./facetracker -o CAM0 
-    $ ./facetracker -o video.avi
-
-
-    
-
-
-    
-    

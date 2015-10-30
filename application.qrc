@@ -1,0 +1,24 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>icones/general/webcam.png</file>
+    <file>icones/general/admin.png</file>
+	<file>icones/general/binoculars.png</file>
+    <file>icones/general/window.png</file>
+    <file>icones/general/edit.png</file>
+    <file>icones/general/gear.png</file>
+    <file>icones/general/help.png</file>
+	<file>icones/general/info.png</file>
+	<file>icones/general/cancel.png</file>
+	<file>icones/general/right.png</file>
+	<file>icones/img/nosig.png</file>
+	<file>img/loader.jpg</file>
+	<file>img/loading.gif</file>
+	<file>img/logo.png</file>
+	<file>icones/general/refresh.png</file>
+	<file>icones/general/reload.png</file>
+	<file>icones/general/stats_pie_chart.png</file>
+	<file>icones/general/user_awake.png</file>
+	<file>img/yellow.png</file>
+	<file>img/no_preview.png</file>
+</qresource>
+</RCC>
