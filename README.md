@@ -7,23 +7,60 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Share facetracker code 
+* Version 1.2
 
 ### Screen ###
 
-![alt text](https://bytebucket.org/naperinvic/facetracker/raw/9869e64937525274abb9d0221be0a479bd760b9a/screen/facetracker.png?token=ddc9015a8a487bdfa8a816affa56638df983fa74 "FT screen")
+![alt text](http://naper.eu/me/images/facetracker.jpg "FT screen")
 
 ### How do I get set up? ###
 
-build facetracker using the makefile 
+build facetracker using source code
 
-	$ make compil
+#Linux (Facetracker core)
+
+	$ git clone https://github.com/Facetracker-project/facetracker-gui.git
+	$ cd facetracker-gui/
+	
+installing dependecies(Debian - ubuntu) : 
+
+	$ sudo apt-get install libopencv-dev
+	
+making the project : 
+
+	$ make
+	**************************************
+	*  Facetracker Building    *
+	**************************************
+	make ftall		: Build facetracker
+	make memleaks		: Check memory leaks
+
+to compile all facetracker modules : 
+
+	$ make ftall
 	
 then execute it using
 
 	$ ./facetracker
+	
+#Linux (facetracker gui)
+
+Open the <b>.pro</b> file using QT creator .
+
+#Windows (facetracker core)
+
+Open the <b>.sln</b> file using Visual Studio
+
+#Windows (facetracker gui)
+
+Open the <b>.pro</b> file using QT creator .
+
+#Avaialble Arguments
+-o : allows you to open a media source (camera , picture , video, rtsp link..)
+
+	$ ./facetracker -o CAM0 (open camera id=0)
+	$ ./facetracker -o video.avi (open the file video.avi)
 
 ### Contributors ###
 
