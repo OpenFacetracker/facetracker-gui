@@ -56,7 +56,7 @@ Open the <b>.sln</b> file using Visual Studio
 
 Open the <b>.pro</b> file using QT creator .
 
-#Avaialble Arguments
+#Available Arguments
 -o : allows you to open a media source (camera , picture , video, rtsp link..)
 
 	$ ./facetracker -o CAM0 (open camera id=0)
