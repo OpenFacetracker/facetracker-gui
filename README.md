@@ -9,10 +9,14 @@ This README would normally document whatever steps are necessary to get your app
 
 * Share facetracker code 
 * Version 1.2
+* This repo contains facetracker-core and facetracker-gui . You can check out facetracker-core via this link . https://github.com/Facetracker-project/facetracker-core
 
 ### Screen ###
 
+![alt text](http://nsa37.casimages.com/img/2015/10/31/151031053712540888.png "FT screen")
+
 ![alt text](http://naper.eu/me/images/facetracker.jpg "FT screen")
+
 
 ### How do I get set up? ###
 
