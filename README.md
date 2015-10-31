@@ -8,6 +8,7 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for? ###
 
 * Share facetracker code 
+* Facetracker is insipred from the American Tv show "Person Of Interest"
 * Version 1.2
 * This repo contains facetracker-core and facetracker-gui . You can check out facetracker-core via this link . https://github.com/Facetracker-project/facetracker-core
 
