@@ -1,7 +1,7 @@
 [![GitHub version](https://badge.fury.io/gh/invicnaper%2FMWF.svg)](http://badge.fury.io/gh/invicnaper%2FMWF)[ ![Codeship Status for naperinvic/Facetracker](https://codeship.com/projects/f71de5f0-6053-0132-5208-2696ea524dd6/status?branch=master)](https://codeship.com/projects/51618)
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This README would normally document whatever steps are necessary to get facetracker up and running.
 
 ![alt text](https://cdn1.iconfinder.com/data/icons/skype-icons/128/skype_camera.png "FT logo")
 
